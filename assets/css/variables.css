@@ -1,0 +1,13 @@
+:root {
+    --black: #222222;
+    --white: #FAFAFA;
+    --airbnb-color: #FF5A5F;
+    --airbnb-color-darken: #FF373D;
+    --green: #5DA271;
+    --shadow:
+        1px 2px 2px hsl(0 0% 88% / 0.2),
+        2px 4px 4px hsl(0 0% 88% / 0.2),
+        4px 8px 8px hsl(0 0% 88% / 0.2),
+        8px 16px 16px hsl(0 0% 88% / 0.2),
+        16px 32px 32px hsl(0 0% 88% / 0.2);
+}

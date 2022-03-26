@@ -1,0 +1,60 @@
+header {
+    background-image: url('../images/kitchen-01.jpeg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 3em;
+}
+
+header h1 {
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+header h1 span {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4.8rem;
+    text-transform: uppercase;
+    display: block;
+}
+
+header div.description {
+    background-color: #FFFFFF;
+    padding: 3em;
+    width: 450px;
+    border-radius: 1.8rem;
+}
+
+header div.description p {
+    margin-bottom: 1.5em;
+}
+
+header div.description a {
+    background-color: var(--airbnb-color);
+    color: #FFF;
+    text-decoration: none;
+    padding: .7em 1.4em;
+    border-radius: 1.8rem;
+    display: inline-flex;
+}
+
+header div.description a:hover {
+    background-color: var(--black);
+    transition: background-color .2s ease-in-out;
+}
+
+header div.description a .airbnb-logo {
+    width: 1.4em;
+    fill: #FFFFFF;
+    margin-right: .5em;
+}
