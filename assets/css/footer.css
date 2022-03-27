@@ -35,3 +35,9 @@ footer a .airbnb-logo {
     fill: #FFFFFF;
     margin-right: .5em;
 }
+
+@media screen and (max-width: 768px) {
+    footer h2 {
+        font-size: 1.8rem;
+    }
+}

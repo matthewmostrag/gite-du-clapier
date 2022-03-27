@@ -22,3 +22,9 @@ body {
 p {
     overflow-wrap: break-word;
 }
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 1.6rem;
+    }
+}
